@@ -70,8 +70,8 @@ Para desplegar usando Vercel:
 3. Vercel detectará automáticamente que es un proyecto de React y configurará el entorno de despliegue.
 4. Una vez desplegado, tendrás una URL pública proporcionada por Vercel (por ejemplo, `https://aluraflix.vercel.app`).
 
-Link del despliegue: [https://aluraflix.vercel.app](https://aluraflix.vercel.app)
-
+Para este proyecto el link ya fue creado, puede acceder al siguiente URL:
+Link del despliegue: [https://repositorio-react-front-end-2025.vercel.app/]
 ## Tecnologías utilizadas
 - **React**: Librería principal para construir la interfaz de usuario.
 - **CSS**: Estilización del proyecto con diseño responsivo.
