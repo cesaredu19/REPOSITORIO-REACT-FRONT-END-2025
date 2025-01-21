@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.picasion.com/pic92/22c3388017f03a5c5d500e0b9c3f2ff1.gif'); /* Cambiar por la URL de la imagen deseada */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  background-color: rgba(10, 25, 47, 0.9); /* Fondo semi-transparente para destacar contenido */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+header {
+  background-color: #112240;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header nav button {
+  background-color: #61dafb;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+header nav button:hover {
+  background-color: #21a1f1;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 60px 20px;
+}
+
+.banner h2 {
+  font-size: 36px;
+  margin: 0 0 10px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.categories {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.category-title {
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+}
+
+.VideoList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.VideoList div {
+  background-color: #112240;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.VideoList img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.VideoList h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.VideoList p {
+  font-size: 14px;
+  color: #cfd8dc;
+  margin: 5px 0;
+}
+
+.VideoList button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.VideoList button:hover {
+  opacity: 0.8;
+}
+
+.VideoList button:first-child {
+  background-color: #ffc107;
+  color: black;
+}
+
+.VideoList button:last-child {
+  background-color: red;
+  color: white;
+}
+
+footer {
+  background-color: #112240;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  border-radius: 0 0 10px 10px;
+}
